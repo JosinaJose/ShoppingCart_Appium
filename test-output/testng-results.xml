@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-22T13:57:49 EDT" name="ShoppingCartTestSuite" finished-at="2023-06-22T13:57:53 EDT" duration-ms="3450">
+    <groups>
+    </groups>
+    <test started-at="2023-06-22T13:57:49 EDT" name="TestNGTest1" finished-at="2023-06-22T13:57:53 EDT" duration-ms="3450">
+      <class name="com.testCases.SearchItem">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testCases.SearchItem@7b36aa0c]" started-at="2023-06-22T13:57:20 EDT" name="setup" finished-at="2023-06-22T13:57:49 EDT" duration-ms="29034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="accessAllow()[pri:0, instance:com.testCases.SearchItem@7b36aa0c]" started-at="2023-06-22T13:57:50 EDT" name="accessAllow" finished-at="2023-06-22T13:57:53 EDT" duration-ms="2300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accessAllow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testCases.SearchItem@7b36aa0c]" started-at="2023-06-22T13:57:53 EDT" name="tearDown" finished-at="2023-06-22T13:57:54 EDT" duration-ms="567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testCases.SearchItem -->
+    </test> <!-- TestNGTest1 -->
+  </suite> <!-- ShoppingCartTestSuite -->
+</testng-results>
