@@ -1,1 +1,1 @@
-Shopping Cart 
+Shopping Cart Sample Project
