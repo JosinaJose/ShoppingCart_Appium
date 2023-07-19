@@ -47,7 +47,7 @@ public class Reporting extends TestListenerAdapter
 		// populate the common details
 		extent.setSystemInfo("Host name","localhost");
 		extent.setSystemInfo("Environment","QA");
-		extent.setSystemInfo("user","busyQA");
+		
 		extent.setSystemInfo("OS","Windows10");
 		extent.setSystemInfo("Browser name","Chrome,Firefox,IE");
 		

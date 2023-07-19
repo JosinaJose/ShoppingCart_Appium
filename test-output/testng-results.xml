@@ -1,25 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="7" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-22T13:57:49 EDT" name="ShoppingCartTestSuite" finished-at="2023-06-22T13:57:53 EDT" duration-ms="3450">
+  <suite started-at="2023-07-19T16:30:17 EDT" name="ShoppingCartTestSuite" finished-at="2023-07-19T16:30:39 EDT" duration-ms="22223">
     <groups>
     </groups>
-    <test started-at="2023-06-22T13:57:49 EDT" name="TestNGTest1" finished-at="2023-06-22T13:57:53 EDT" duration-ms="3450">
+    <test started-at="2023-07-19T16:30:17 EDT" name="TestNGTest1" finished-at="2023-07-19T16:30:39 EDT" duration-ms="22223">
       <class name="com.testCases.SearchItem">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testCases.SearchItem@7b36aa0c]" started-at="2023-06-22T13:57:20 EDT" name="setup" finished-at="2023-06-22T13:57:49 EDT" duration-ms="29034" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testCases.SearchItem@5677323c]" started-at="2023-07-19T16:29:50 EDT" name="setup" finished-at="2023-07-19T16:30:17 EDT" duration-ms="26959" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="accessAllow()[pri:0, instance:com.testCases.SearchItem@7b36aa0c]" started-at="2023-06-22T13:57:50 EDT" name="accessAllow" finished-at="2023-06-22T13:57:53 EDT" duration-ms="2300" status="PASS">
+        <test-method signature="accessAllow()[pri:0, instance:com.testCases.SearchItem@5677323c]" started-at="2023-07-19T16:30:18 EDT" name="accessAllow" finished-at="2023-07-19T16:30:21 EDT" duration-ms="2849" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accessAllow -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testCases.SearchItem@7b36aa0c]" started-at="2023-06-22T13:57:53 EDT" name="tearDown" finished-at="2023-06-22T13:57:54 EDT" duration-ms="567" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testCases.SearchItem@5677323c]" started-at="2023-07-19T16:30:40 EDT" name="tearDown" finished-at="2023-07-19T16:30:40 EDT" duration-ms="731" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testCases.SearchItem -->
+      <class name="com.testCases.Home_WomensSection">
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:com.testCases.Home_WomensSection@38cee291]" started-at="2023-07-19T16:30:21 EDT" name="preCondition" finished-at="2023-07-19T16:30:26 EDT" duration-ms="4744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="womensSectionCheckBoxes()[pri:1, instance:com.testCases.Home_WomensSection@38cee291]" started-at="2023-07-19T16:30:26 EDT" name="womensSectionCheckBoxes" finished-at="2023-07-19T16:30:27 EDT" duration-ms="1377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- womensSectionCheckBoxes -->
+        <test-method signature="nameCheckBoxes()[pri:2, instance:com.testCases.Home_WomensSection@38cee291]" started-at="2023-07-19T16:30:27 EDT" name="nameCheckBoxes" finished-at="2023-07-19T16:30:28 EDT" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameCheckBoxes -->
+        <test-method signature="multipleSelectionChek()[pri:3, instance:com.testCases.Home_WomensSection@38cee291]" started-at="2023-07-19T16:30:28 EDT" name="multipleSelectionChek" finished-at="2023-07-19T16:30:31 EDT" duration-ms="3412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleSelectionChek -->
+        <test-method signature="allCheckBoxesSelected()[pri:4, instance:com.testCases.Home_WomensSection@38cee291]" started-at="2023-07-19T16:30:31 EDT" name="allCheckBoxesSelected" finished-at="2023-07-19T16:30:39 EDT" duration-ms="7842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allCheckBoxesSelected -->
+      </class> <!-- com.testCases.Home_WomensSection -->
     </test> <!-- TestNGTest1 -->
   </suite> <!-- ShoppingCartTestSuite -->
 </testng-results>

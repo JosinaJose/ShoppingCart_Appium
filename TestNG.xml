@@ -11,7 +11,7 @@
 		<classes>
 			<!-- packagename.classname -->
 			<class name="com.testCases.SearchItem" />
-			
+			<class name="com.testCases.Home_WomensSection" />
 			
 		</classes>
 	</test>

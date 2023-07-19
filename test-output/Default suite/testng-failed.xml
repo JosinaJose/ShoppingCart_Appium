@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testCases.AccessAllow">
+      <class name="com.testCases.Home_WomensSection">
         <methods>
-          <include name="accessAllow"/>
+          <include name="preCondition"/>
+          <include name="allCheckBoxesSelected"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.testCases.AccessAllow -->
+      </class> <!-- com.testCases.Home_WomensSection -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
